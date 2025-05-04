@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  .form-section, .incidents-section {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  .incident-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .incident-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .incident-card .severity {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  
+  .severity-low {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .severity-medium {
+    background: #fff3cd;
+    color: #856404;
+  }
+  
+  .severity-high {
+    background: #f8d7da;
+    color: #721c24;
+  }
+  
+  .incident-card .date {
+    color: #7f8c8d;
+    font-size: 0.9em;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-top: 10px;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
