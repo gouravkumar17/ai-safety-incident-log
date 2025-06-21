@@ -25,13 +25,10 @@ A full-stack web application to log, track, and manage AI safety incidents. Desi
 
 ### Frontend
 - HTML, CSS, JavaScript
-- React.js (modular structure)
 - Served via: `python -m http.server`
 
 ### Backend
-- Node.js
-- Express.js
-- SQLite (with Sequelize ORM)
+- Local server
 
 ---
 
